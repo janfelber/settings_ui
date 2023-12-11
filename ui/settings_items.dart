@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:receptoar/settings_lib/icon_style.dart';
+import 'icon_style.dart';
 
 import 'screen_utils.dart';
 

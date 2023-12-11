@@ -2,11 +2,9 @@
 
 import 'package:flutter/material.dart';
 
-import '../theme/color_theme.dart';
 import 'screen_utils.dart';
 import 'settings_items.dart';
 
-/// This component group the Settings items (BabsComponentSettingsItem)
 /// All one BabsComponentSettingsGroup have a title and the developper can improve the design.
 class SettingsGroup extends StatelessWidget {
   final String? settingsGroupTitle;
@@ -46,7 +44,7 @@ class SettingsGroup extends StatelessWidget {
           // The SettingsGroup sections
           Container(
             decoration: BoxDecoration(
-              color: cards,
+              color: Color.fromARGB(255, 49, 48, 47),
               borderRadius: BorderRadius.circular(15),
             ),
             child: ListView.separated(
