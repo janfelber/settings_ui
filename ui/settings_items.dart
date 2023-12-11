@@ -79,6 +79,7 @@ class SettingsItem extends StatelessWidget {
             ? trailing
             : Icon(
                 Icons.navigate_next,
+                // color of trailing icon
                 color: Colors.grey[400],
               ),
       ),
